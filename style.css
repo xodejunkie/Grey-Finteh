@@ -1,0 +1,553 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Header */
+.navbar-custom {
+    background-color: #26209e;
+    padding: 15px 0;
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ffce00;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('../img/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.hero-section-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-section-content p {
+    font-size: 18px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.btn.info-btn {
+    background-color: #ffce00;
+    color: #26209e;
+}
+
+.btn.info-btn:hover {
+    background-color: #e0b800;
+}
+
+/* Footer Styles */
+.footer-area {
+    background-color: #262626;
+    color: #fff;
+    padding: 50px 0;
+    position: relative;
+}
+
+.footer-area .footer-content-area {
+    padding: 50px 0;
+}
+
+.footer-area .footer-content-area .footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-area .footer-content-area .footer-logo img {
+    max-width: 150px;
+}
+
+.footer-area .footer-content-area p {
+    color: #ccc;
+}
+
+.footer-area .footer-content-area .footer-social-info a {
+    color: #ccc;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer-area .footer-content-area .footer-social-info a:hover {
+    color: #fff;
+}
+
+.footer-area .footer-content-area .contact_info_area {
+    margin-bottom: 30px;
+}
+
+.footer-area .footer-content-area .contact_info_area h5 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-area .footer-content-area .contact_info_area a {
+    color: #ccc;
+}
+
+.footer-area .footer-content-area .contact_info_area a:hover {
+    color: #fff;
+}
+
+.footer-area .footer-content-area .contact_info_area p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.footer-area .footer-content-area .row.mt-4 {
+    margin-top: 50px;
+}
+
+.footer-area .footer-content-area .row.mt-4 p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer-area .footer-content-area .row.mt-4 p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Contact Area */
+.contact-info-section {
+    margin-top: 50px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #777;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #28a745;
+}
+
+/* About Us and FAQ Section Adjustments */
+.about-us-area .row.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+/* FAQ Section Adjustments */
+.faq-timeline-area .row.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.faq-timeline-area img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-faq-area {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info-faq-area dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.info-faq-area dd {
+    margin-left: 20px;
+}
+
+
+/* Ensure Images and Texts are Aligned Side by Side */
+.welcome-meter img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.who-we-contant,
+.info-faq-area {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .navbar-custom .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-custom .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .footer-area .footer-social-info {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact_us_area {
+        text-align: center;
+    }
+
+    .contact_us_area .call-us-sec .col-lg-9,
+    .contact_us_area .call-us-sec .col-lg-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer-area .footer-logo img {
+        max-width: 120px;
+    }
+}
+
+
+
+/* Custom Progress Bar */
+.progres ul {
+    text-align: center;
+}
+.progres ul li {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+.progres ul li .fa {
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: rgb(71, 68, 68);
+    color: ghostwhite;
+    padding: 5px;
+}
+.progres ul li .fa::after {
+    content: '';
+    height: 5px;
+    width: 110%;
+    background-color: rgb(71, 68, 68);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    z-index: -1;
+}
+.progres ul li:first-child .fa::after {
+    width: 55%;
+    left: 55%;
+}
+.progres ul li:last-child .fa::after {
+    width: 55%;
+}
+.progres ul li:nth-child(1) .fa {
+    background-color: #940c17;
+}
+.progres ul li:nth-child(1) .fa::after {
+    background-color: #940c17;
+}
+#step4 {
+    display: none;
+}
+#step3 {
+    display: none;
+}
+#step2 {
+    display: none;
+}
+#step5 {
+    display: none;
+}
+/* Step Two Progress Bar */
+.progres2 ul {
+    text-align: center;
+}
+.progres2 ul li {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+.progres2 ul li .fa {
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: rgb(71, 68, 68);
+    color: ghostwhite;
+    padding: 5px;
+}
+.progres2 ul li .fa::after {
+    content: '';
+    height: 5px;
+    width: 110%;
+    background-color: rgb(71, 68, 68);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    z-index: -1;
+}
+.progres2 ul li:first-child .fa::after {
+    width: 55%;
+    left: 55%;
+}
+.progres2 ul li:last-child .fa::after {
+    width: 55%;
+}
+.progres2 ul li:nth-child(1) .fa {
+    background-color: #940c17;
+}
+.progres2 ul li:nth-child(1) .fa::after {
+    background-color: #940c17;
+}
+.progres2 ul li:nth-child(2) .fa {
+    background-color: #940c17;
+}
+.progres2 ul li:nth-child(2) .fa::after {
+    background-color: #940c17;
+}
+/* Step Three Progress Bar */
+.progres3 ul {
+    text-align: center;
+}
+.progres3 ul li {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+.progres3 ul li .fa {
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: rgb(71, 68, 68);
+    color: ghostwhite;
+    padding: 5px;
+}
+.progres3 ul li .fa::after {
+    content: '';
+    height: 5px;
+    width: 110%;
+    background-color: rgb(71, 68, 68);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    z-index: -1;
+}
+.progres3 ul li:first-child .fa::after {
+    width: 55%;
+    left: 55%;
+}
+.progres3 ul li:last-child .fa::after {
+    width: 55%;
+}
+.progres3 ul li:nth-child(1) .fa {
+    background-color: #940c17;
+}
+.progres3 ul li:nth-child(1) .fa::after {
+    background-color: #940c17;
+}
+.progres3 ul li:nth-child(2) .fa {
+    background-color: #940c17;
+}
+.progres3 ul li:nth-child(2) .fa::after {
+    background-color: #940c17;
+}
+.progres3 ul li:nth-child(3) .fa {
+    background-color: #940c17;
+}
+.progres3 ul li:nth-child(3) .fa::after {
+    background-color: #940c17;
+}
+/* Step Four Progress Bar */
+.progres4 ul {
+    text-align: center;
+}
+.progres4 ul li {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+.progres4 ul li .fa {
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: rgb(71, 68, 68);
+    color: ghostwhite;
+    padding: 5px;
+}
+.progres4 ul li .fa::after {
+    content: '';
+    height: 5px;
+    width: 110%;
+    background-color: rgb(71, 68, 68);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    z-index: -1;
+}
+.progres4 ul li:first-child .fa::after {
+    width: 55%;
+    left: 55%;
+}
+.progres4 ul li:last-child .fa::after {
+    width: 55%;
+}
+.progres4 ul li:nth-child(1) .fa {
+    background-color: #940c17;
+}
+.progres4 ul li:nth-child(1) .fa::after {
+    background-color: #940c17;
+}
+.progres4 ul li:nth-child(2) .fa {
+    background-color: #940c17;
+}
+.progres4 ul li:nth-child(2) .fa::after {
+    background-color: #940c17;
+}
+.progres4 ul li:nth-child(3) .fa {
+    background-color: #940c17;
+}
+.progres4 ul li:nth-child(3) .fa::after {
+    background-color: #940c17;
+}
+.progres4 ul li:nth-child(4) .fa {
+    background-color: #940c17;
+}
+.progres4 ul li:nth-child(4) .fa::after {
+    background-color: #940c17;
+}
+/* Step Five Progress Bar */
+.progres5 ul {
+    text-align: center;
+}
+.progres5 ul li {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+.progres5 ul li .fa {
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: rgb(71, 68, 68);
+    color: ghostwhite;
+    padding: 5px;
+}
+.progres5 ul li .fa::after {
+    content: '';
+    height: 5px;
+    width: 110%;
+    background-color: rgb(71, 68, 68);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    z-index: -1;
+}
+.progres5 ul li:first-child .fa::after {
+    width: 55%;
+    left: 55%;
+}
+.progres5 ul li:last-child .fa::after {
+    width: 55%;
+}
+.progres5 ul li:nth-child(1) .fa {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(1) .fa::after {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(2) .fa {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(2) .fa::after {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(3) .fa {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(3) .fa::after {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(4) .fa {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(4) .fa::after {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(5) .fa {
+    background-color: #940c17;
+}
+.progres5 ul li:nth-child(5) .fa::after {
+    background-color: #940c17;
+}
